@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Level00</title>
+	<title>Writeup1</title>
 	<link rel="stylesheet" type="text/css" href="scripts/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="scripts/css/style.css">
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-		<a class="navbar-brand" href="#">Level00</a>
+		<a class="navbar-brand" href="#">Writeup1</a>
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item">
         		<a class="nav-link" href="../../manuel.html">retour</a>
@@ -15,27 +15,26 @@
 		</ul>
 	</nav>
 	<div align="center">
-		<h1 class="mt-4">Level00</h1>
+		<h1 class="mt-4">Writeup1</h1>
 
 		<div class="mt-5">
 			<h5 class="mt-4">Etape 1 : </h5>
-			<p class="lead">on lance la progammme</p>
-			<img src="img/etape1.png" class="mt-4 om">
+			<p class="lead">Recuperer l'ip de la vm : <br> faire un arp-scan puis regarder celle qui a pcs systemtechnik gmbh (ici : 192.168.1.50)</p>
+			<img src="scripts/img/level00/etape1.png" class="mt-4 om">
 		</div>
 
 		<div class="mt-5">
 			<h5 class="mt-4">Etape 2 : </h5>
-			<p class="lead">on lance gdb</p>
-			<p class="lead">on convertit la ligne ou il y a cmp : 0x080484e7 <+83>:	cmp    $0x149c,%eax</p>
-			<p class="lead">on a : 0x149c = 5276</p>
-			<img src="img/etape2.png" class="mt-4 om">
+			<p class="lead">regarder la ports ouverts</p>
+			<p class="lead">poiur cela on fait un nmap</p>
+			<img src="scripts/img/level00/etape2.png" class="mt-4 om">
 		</div>
 
 		<div class="mt-5">
 			<h5 class="mt-4">Etape 3 : </h5>
-			<p class="lead">on lance le programme</p>
-			<p class="lead">on met 5276 en mdp</p>
-			<img src="img/etape3.png" class="mt-4 om">
+			<p class="lead">Regarder ce que l'on peut tirer du site web</p>
+			<p class="lead">utiliser dirbuster sous kali linux avec la list medium</p>
+			<img src="scripts/img/level00/etape3.0.png" class="mt-4 om">
 		</div>
 		<br><br>
 		<h1 class="mt-4">Level0 programme</h1>
